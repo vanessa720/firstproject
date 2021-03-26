@@ -1,3 +1,56 @@
-html {
-    background: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar {
+    background: darkslateblue;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.navbar .menu li a{
+    color: black;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.navbar .logo a {
+    color: ghostwhite;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li a{
+    color: ghostwhite;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+body {
+    text-align: center;
+    font-family: Cambria;
+    background-image: url("./tech.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
