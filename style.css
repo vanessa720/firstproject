@@ -51,6 +51,26 @@ body {
     text-align: center;
     font-family: Cambria;
     background-image: url("./tech.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.box {
+    width: 550px;
+    height: 800px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid darkslategray;
+    box-shadow: 1px 6px 6px;
+    background: rgb(144, 144, 228);
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'century gothic';
+    color: seashell;
+    float: inline-end;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 50%;
 }
