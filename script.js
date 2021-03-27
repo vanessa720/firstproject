@@ -1,8 +1,5 @@
 alert ("Welcome to my Portfolio!")
 
-const card = document.getElementsByClassName('box') [0]
-const cardTitle = card.getElementsByTagNameNS('h1') [0]
-const description = card.getElementsByTagName('p') [0]
+const main = document.getElementsByClassName('main')
 
-cardTitle.innerText = "Vanessa Williamson"
-description.innerText= "Vanessa Vanessa Vanessa"
+main.innerText = "Vanessaaaaaaaaaaaaaaaaaaaah"

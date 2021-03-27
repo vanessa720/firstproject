@@ -72,12 +72,13 @@ body {
 
 .box img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 60%;
 }
+
 
 .contact {
     width: 450px;
-    height: 200px;
+    height: 400px;
     padding: 40px;
     text-align: center;
     border: 1px solid darkslategray;
@@ -85,6 +86,12 @@ body {
     background: rgb(144, 144, 228);
     margin: auto;
     margin-top: 5%;
-    font-family: 'century gothic';
+    font-family: 'century gothic'; 
     color: seashell;
+    
+}
+
+.contact img {
+    width: 100%;
+    border-block-end-color: currentColor;
 }
