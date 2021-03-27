@@ -1,5 +1,5 @@
-alert ("Welcome to my Portfolio!")
+const button = document.getElementById("button")
 
-const main = document.getElementsByClassName('main')
-
-main.innerText = "Vanessaaaaaaaaaaaaaaaaaaaah"
+button.addEventListener("click", function () {
+    alert("You've clicked on mail!")
+})
